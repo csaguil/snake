@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Snake</title>
+  </head>
+  <body>
+    <div class="score-container">
+      <h1> Retro Snake Game </h1>
+      <div id="score" class="score"></div>
+      <div id="highscore" class="highscore"></div>
+    </div>
+    <canvas id="canvas" style="border: 1px solid; color: black" width="500" height="500"></canvas>
+    <div class="button-container">
+      <button id="startButton" class="start-button">Start</button>
+    </div>
+  </body>
+  <script src="js/score-module.js"></script>
+  <script src="js/snake-grid-module.js"></script>
+  <script src="js/random-coord-module.js"></script>
+  <script src="js/snake-game-service.js"></script>
+  <script src="js/engine.js"></script>
+</html>

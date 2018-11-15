@@ -1,0 +1,43 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+h1 {
+  font-family: Consolas, monaco, monospace;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.score-container {
+  text-align: center;
+  font-size: 20px;
+  font-family: Consolas, monaco, monospace;
+}
+
+.score {
+  float: left;
+}
+
+.highscore {
+  float: right;
+}
+
+.start-button {
+  background-color: green;
+  height:50px;
+  width:100px;
+  font-size: 16px;
+  font-family: Consolas, monaco, monospace;
+}
