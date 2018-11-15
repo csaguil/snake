@@ -10,6 +10,7 @@ var dir; //current direction snake is travelling
 (function() {
   var canvas = document.getElementById("canvas");
   var ctx = canvas.getContext("2d");
+  var startButton = document.getElementById("start-button");
 
   startButton.addEventListener("click", function() {
     var service = SnakeGameService(ctx, 500, 500, 10, 25);
