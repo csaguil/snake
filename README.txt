@@ -6,7 +6,7 @@ Technologies used:
 -HTML5 Canvas
 
 Usage Instructions:
-- The game is hosted at the following url <>
+- The game is hosted at the following url <https://csaguil.github.io/snake/>
 - To run the game locally, you can host it on your own machine using
 http-server <https://www.npmjs.com/package/http-server>
 - you can also simply open index.html in any modern web browser, however
